@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+    background-color: #D9D9D9;
+    font-family: 'MyFont', sans-serif;
+}
+
+/* styles.css */
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('src/assets/ShareTech-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --font-family: 'MyFont', sans-serif;
+}
+
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
+.floating {
+    animation: float 3s ease-in-out infinite;
+}
