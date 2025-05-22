@@ -3,7 +3,7 @@ import React from 'react'
 export const Projects = () => {
     return (
         <div>
-            <div className={'text-center text-black italic text-5xl pt-7'}>
+            <div className={'shareTech text-center text-black italic text-5xl pt-7'}>
                 Projects
             </div>
 

@@ -12,7 +12,7 @@ function Java() {
 export const Skills = () => {
     return (
         <div>
-            <div className={'text-center  text-black italic text-5xl mt-[100px] mb-[50px]'}>
+            <div className={'shareTech text-center  text-black italic text-5xl mt-[100px] mb-[50px]'}>
                 Skills
             </div>
             <div className={'pl-8 pr-8'}>

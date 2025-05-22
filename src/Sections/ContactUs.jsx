@@ -88,7 +88,7 @@ export const ContactUs = () => {
     return (
         <div>
 
-            <div className={'text-5xl text-black text-center italic mt-5 mb-8'}>Contact Us</div>
+            <div className={'shareTech text-5xl text-black text-center italic mt-5 mb-8'}>Contact Us</div>
 
             <div className={'flex flex-row justify-center'}>
                 <div className={'bg-[#898989] p-8 mr-2 rounded-2xl '}>

@@ -2,20 +2,18 @@
 
 body {
     background-color: #D9D9D9;
-    font-family: 'MyFont', sans-serif;
 }
 
 
 .shareTech {
-    font-family: 'MyFont', sans-serif;
+    font-family: 'MyFont', serif, sans-serif;
 }
 /* styles.css */
 
 @font-face {
     font-family: 'MyFont';
-    src: url('src/assets/ShareTech-Regular.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
+    src: url('src/assets/shareTech.ttf');
+
 }
 
 :root{

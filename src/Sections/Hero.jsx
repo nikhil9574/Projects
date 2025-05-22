@@ -16,7 +16,7 @@ export const Hero = () => {
                 {/* Overlay for Logo and Buttons */}
                 <div className="absolute top-4 left-4 flex items-center space-x-4 z-10">
                     {/* Logo */}
-                    <img src="/logo.png" alt="Logo" className="h-12 w-12 object-contain" />
+                    <img src="src/assets/logo.png" alt="Logo" className="h-14 w-14 object-contain" />
                 </div>
 
                 <div className="absolute top-4 right-4 flex space-x-4 z-10">
