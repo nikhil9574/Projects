@@ -10,15 +10,12 @@ export const Projects = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const prevSlide = () => {
-        const newIndex = (currentIndex - 1 + images.length) % images.length;
-        setCurrentIndex(newIndex);
+
+
+    const setindex = (index) => {
+        setCurrentIndex(index);
     };
 
-    const nextSlide = () => {
-        const newIndex = (currentIndex + 1) % images.length;
-        setCurrentIndex(newIndex);
-    };
 
 
     return (
@@ -45,7 +42,18 @@ export const Projects = () => {
                             <p>description of project...</p>
                         </div>
                         <div className={'text-center'}>
-                            <img src="src/assets/img1.jpeg" alt="project1" className={'w-[580px] h-[499px] rounded-2xl'}/>
+
+                            <div>
+
+                                <div className={'flex flex-row justify-center relative top-[480px]'}>
+                                    <span onClick={() => setindex(0)} className={'h-[10px] w-[10px] bg-[#D9D9D9] rounded-[50%] p-2 m-2 border hover:bg-[#898989]'}></span>
+                                    <span onClick={() => setindex(1)} className={'h-[10px] w-[10px] bg-[#D9D9D9] rounded-[50%] p-2 m-2 border hover:bg-[#898989]'}></span>
+                                    <span onClick={() => setindex(2)} className={'h-[10px] w-[10px] bg-[#D9D9D9] rounded-[50%] p-2 m-2 border hover:bg-[#898989]'}></span>
+
+                                </div>
+                                <img src={images[currentIndex]} alt="project1" className={'w-[580px] h-[499px] rounded-2xl'}/>
+
+                            </div>
                         </div>
                     </div>
 
