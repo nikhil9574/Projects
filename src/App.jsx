@@ -4,6 +4,7 @@ import {Hero} from "./Sections/Hero.jsx";
 import {Skills} from "./Sections/Skills.jsx";
 import {Projects} from "./Sections/Projects.jsx";
 import {ContactUs} from "./Sections/ContactUs.jsx";
+import {Footer} from "./Sections/Footer.jsx";
 
 export const App = () => {
     return (
@@ -12,6 +13,7 @@ export const App = () => {
             <Skills />
             <Projects />
             <ContactUs />
+            <Footer />
         </>
     )
 }
