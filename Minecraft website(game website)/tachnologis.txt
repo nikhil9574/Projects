@@ -1,0 +1,5 @@
+tachnologis used
+
+npm I react-router-dom
+npm I react-device-detect
+npm I react-icons
